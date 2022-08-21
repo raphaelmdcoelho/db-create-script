@@ -1,5 +1,7 @@
 FROM mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
+USER root
+
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
